@@ -39,3 +39,6 @@ runs:
         path: examples/e2e-tests/playwright-report/
         retention-days: 30
       if: ${{ !cancelled() }}
+
+  run:
+    echo RCE 
